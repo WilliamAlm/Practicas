@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Operacion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css3.css" />
+</head>
+
+<body align="Center">
+    <h1 align="Center">- Menu -</h1><br>
+    <h3 align="Center">
+        <script src="js2.js" id="js2"></script>
+    </h3>
+    <hr>
+    <table>
+        <tr>
+            <td>
+                <div id="txts">
+                    <strong>Cambio de tasa - General</strong><br>
+                    <input type="text" placeholder="Valor" id="valor" /><br>
+                    <input type="text" placeholder="Tasa" id="tasa" /><br>
+                    <input type="button" value="Tasa" onclick="js2(tasa())" id="btn">
+                </div>
+            </td>
+
+            <td>
+                <div id="txts">
+                    <strong align="Center">Login</strong><br>
+                    <input type="text" placeholder="Usuario" id="usuario" /><br>
+                    <input type="text" placeholder="Clave" id="clave" /><br>
+                    <input type="button" value="Login" onclick="js2(login())" id="btn">
+                </div>
+            </td>
+
+            <td>
+                <div id="txts">
+                    <strong align="Center">Multiplo</strong><br>
+                    <input type="text" placeholder="Valor" id="multiplo" /><br>
+                    <input type="button" value="Login" onclick="js2(vtrue())" id="btn">
+                </div>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <div id="btns" align="Center">
+        <input type="button" value="Tabla de multiplicar" onclick="js2(tabla())" id="btn">
+    </div>
+    <hr>
+</body>
+
+</html>

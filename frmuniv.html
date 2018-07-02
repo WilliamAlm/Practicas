@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Registro universitario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css1.css" />
+    <script src="js1.js" id="sc1"></script>
+    <script src="js2.js" id="sc2"></script>
+</head>
+
+<body id="body1" style="background-color: #ffffff00">
+    <h1 align="Center">Registro de Nuevo estudiante</h1>
+    <hr>
+    <h3 align="Center">Datos personales</h3>
+    <hr>
+    <table>
+        <tr>
+            <td Align="Right"><label>Nombre: </label></td>
+            <td><input type="text" name="txtnombre" /></td>
+            <td Align="Right"><label>Apellidos: </label></td>
+            <td><input type="text" name="txtapellidos" /></td>
+            <td Align="Right"><label>Telefono: </label></td>
+            <td><input type="text" name="txtnombre" />
+        </tr>
+        <tr>
+            <td Align="Right"><label>Universidad: </label></td>
+            <td>
+                <select name="universidades" required>
+                    <option>--</option>
+                    <option>Universidad O&M</option>
+                    <option>UASD - SEDE</option>
+                    <option>Universidad del Caribe</option>
+                    <option>APEC</option>
+                    <option>UNPHU</option>
+                    <option>PUCMM</option>
+                </select>
+            </td>
+            <td Align="Right"><label>Carrera: </label></td>
+            <td>
+                <select name="carreras">
+                    <option>--</option>
+                    <option>AAAAAAAAAAA</option>
+                    <option></option>
+                    <option></option>
+                </select>
+            </td>
+
+            <td Align="Right"><label>Sexo: </label></td>
+            <td><input type="radio" name="sexo">M
+                <input type="radio" name="sexo">F
+            </td>
+        </tr>
+
+        <tr>
+
+            <td Align="Right"><label>Ciudad: </label></td>
+            <td>
+                <select name="ciudad" required>
+                        <option></option>
+                        <option>BBBBBBBBBB</option>
+                        <option></option>
+                        <option></option>
+                    </select>
+            </td>
+
+        </tr>
+    </table>
+    <hr>
+    <fieldset Align="Left">
+        <legend Align="Left">Cursos realizados</legend>
+        <tr>
+
+
+            <td><input type="checkbox" name="cursos" />ASTERISK</td><br>
+            <td><input type="checkbox" name="cursos" />SQL SERVER 2014</td><br>
+            <td><input type="checkbox" name="cursos" />SQL SERVER 2016</td><br>
+            <td><input type="checkbox" name="cursos" />SQL SERVER 2017</td><br>
+
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="cursos" />MICROSOFT SERVER 2008</td><br>
+            <td><input type="checkbox" name="cursos" />MICROSOFT SERVER 2012</td><br>
+            <td><input type="checkbox" name="cursos" />LINUX</td><br>
+            <td><input type="checkbox" name="cursos" />GRANSTREAM</td><br>
+            <td><input type="checkbox" name="cursos" />FORTINET</td><br>
+            <td><input type="checkbox" name="cursos" />CCNA</td><br>
+
+        </tr>
+    </fieldset><br>
+    <h3>Comentario</h3>
+    <textarea name="comentario" placeholder="Comentarios" rows="5" cols="80"></textarea><br><br>
+    <input type="button" value="Registrar">
+</body>
+
+</html>
